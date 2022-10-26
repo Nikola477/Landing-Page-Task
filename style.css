@@ -1,0 +1,213 @@
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+   
+}
+
+h1,h2 {
+    color: black;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px rgb(128, 130, 133);
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 0 5rem;
+    border-radius: 1.25rem 1.25rem;
+}
+
+
+img {
+    width: 45rem;
+    height: 25rem;
+    align-self: center;
+    border-radius: 1rem;
+    border: 0.1rem solid rgb(128, 130, 133);
+    box-shadow: 0 0 0.1rem 0.2rem rgb(128, 130, 133);
+    
+}
+
+button {
+    margin: 2rem;
+    padding: 1rem;
+    font-size: xx-large;
+    font-weight: bolder;
+    background-color: rgb(47, 175, 47);
+    color: white;
+    width: 50%;
+    align-self: center;
+    border-radius: 1rem;
+    border-color: rgb(84, 216, 84);
+}
+
+p{  
+    text-align: left; 
+    font-size: 1.78rem;
+    color: black;
+}
+
+.bullet-list {
+    text-align: left;
+    list-style: none;
+    
+}
+
+.bullet-list li {
+    font-size: 1.6rem;
+    color: black;
+ }
+
+ .bullet-list li:before{ content:"•"; font-size: 2.5rem; }
+
+.nav-Links {
+    display: flex;
+    justify-content: center;
+}
+
+ .nav-Ul {
+    display: inline-flex;
+    justify-content: center;
+    list-style: none;
+    
+ }
+ .nav-Ul li { 
+    padding: 0.5rem;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    border-right: 0.1rem solid rgb(32, 107, 204);
+    line-height: 0.1em;
+ }
+
+ .container2 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-image: url("picture2.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 47rem;
+    width: 70%;
+    border: solid 0.1rem rgb(128, 130, 133);
+    border-radius: 1.15rem 1.15rem;
+ }
+ 
+
+ .footer1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12rem;
+    
+ }
+
+ .footer-text {
+    width: 50%;
+    margin: auto;
+    
+    font-size: small;
+    color: rgb(128, 130, 133) ;
+    padding: 2rem;
+    text-align: center;
+    
+ }
+
+ .footerImg {
+    background-image: url("healthy.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5rem;
+    width: 4%;
+    margin: auto;
+ }
+
+ .link1 {
+    text-decoration: none;
+ }
+
+ .link1:visited {
+    text-decoration: none;
+    color: none;
+ }
+
+ 
+ @media (max-width: 1100px) {
+    
+    .container1 {
+    width: 70%;
+    }
+    img {
+        width: 70%;
+    }
+    h1,h2 ,p, .bullet-list li {
+        font-size: x-large;
+    }
+    
+    
+    .container2 {
+        width: 90%;
+    }
+      
+      }
+    
+
+
+
+
+
+ @media (max-width: 800px) {
+    
+    .container1 {
+    width: 80%;
+    }
+    img {
+        width: 80%;
+    }
+    h1,h2 ,p, .bullet-list li {
+        font-size: large;
+    }
+    
+    
+    .container2 {
+        width: 95%;
+    }
+      
+      }
+    
+
+
+
+
+
+
+
+ @media (max-width: 600px) {
+    
+.container1 {
+width: 100%;
+}
+img {
+    width: 100%;
+}
+h1,h2 ,p, .bullet-list li {
+    font-size: medium;
+}
+
+
+.container2 {
+    width: 100%;
+}
+  
+  }
